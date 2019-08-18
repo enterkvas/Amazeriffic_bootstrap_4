@@ -1,7 +1,39 @@
+body {
+  background: yellow;
+  font-size: 10px;
+  font-family: 'Noto Sans', sans-serif;
+}
 .block {
   background: yellow;
   border: 1px solid blue;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+.header {
+  border-bottom: 2px solid #ccc;
+  background: #fff;
+}
+.header h1 {
+  font-size: 4.7em;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
+}
+.header .nav {
+  margin-top: 2em;
+}
+.header .nav a {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-decoration: none;
+  color: #222;
 }
