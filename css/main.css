@@ -41,6 +41,34 @@ h5 {
   max-width: 100%;
   margin-left: 6em;
 }
+.footer {
+  background: #ccc;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+.footer h5 {
+  font-size: 1.8em;
+  font-weight: 400;
+  margin-bottom: 0.9em;
+}
+.footer p {
+  font-size: 1.4em;
+  line-height: 1;
+}
+.footer p span {
+  font-style: italic;
+}
+.footer .list-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .list-footer p {
+  font-weight: 700;
+}
+.footer .list-footer p a {
+  text-decoration: none;
+  color: #222;
+}
 .header {
   border-bottom: 2px solid #ccc;
   background: #fff;
